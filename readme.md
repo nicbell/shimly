@@ -1,4 +1,4 @@
-#shimly [![dependency Status](https://david-dm.org/nicbell/shimly/status.png)](https://david-dm.org/nicbell/shimly#info=dependencies) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+#shimly [![dependency Status](https://david-dm.org/nicbell/shimly/status.png)](https://david-dm.org/nicbell/shimly#info=dependencies)
 
 Create a JavaScript shim set using node.
 
