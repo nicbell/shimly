@@ -26,7 +26,8 @@ $ npm install shimly
 
 ###API:
 ```js
-shimly(shims, minify, destination);
+shimly.shim(shims, minify, destination); //create shim set
+shimly.list(); //lists available shims
 ```
 
 ###Usage:
@@ -35,6 +36,6 @@ shimly(shims, minify, destination);
 // ...
     var shimly = require('shimly')
  
-	shimly(['Array.every', 'Array.forEach'], false, 'shims.js');
+	shimly.shim(['Array.every', 'Array.forEach'], false, 'shims.js');
 // ...
 ```
