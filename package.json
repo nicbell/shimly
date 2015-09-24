@@ -2,7 +2,7 @@
   "name": "shimly",
   "version": "1.0.1",
   "description": "Create a shim set.",
-  "main": "shimly.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,8 +13,10 @@
   "author": "Nic Bell",
   "license": "ISC",
   "dependencies": {
-    "node-fs": "^0.1.7",
-    "path": "^0.11.14",
-    "uglify-js": "^2.4.23"
+    "commander": "^2.8.1",
+    "uglify-js": "^2.4.24"
+  },
+  "bin": {
+    "shimly": "cli.js"
   }
 }

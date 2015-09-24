@@ -39,3 +39,20 @@ shimly.list(); //lists available shims
 	shimly.shim(['Array.every', 'Array.forEach'], false, 'shims.js');
 // ...
 ```
+
+### CLI
+
+```sh
+Usage: shimly [options]
+
+Options:
+
+  -h, --help            output usage information
+  -V, --version         output the version number
+  -m, --minify          Minify
+  -s, --shims <items>   Add the specified shims, comma separted
+  -o, --output [value]  Output file
+```
+```sh
+shimly -m -o file.js -s Array.every,JSON
+```
