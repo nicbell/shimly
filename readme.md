@@ -1,8 +1,8 @@
-#shimly [![dependency Status](https://david-dm.org/nicbell/shimly/status.png)](https://david-dm.org/nicbell/shimly#info=dependencies)
+# shimly [![dependency Status](https://david-dm.org/nicbell/shimly/status.png)](https://david-dm.org/nicbell/shimly#info=dependencies)
 
 Create a JavaScript shim set using node.
 
-###List of shims:
+### List of shims:
 - **Array.every** (`Array.prototype.every()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/every))
 - **Array.filter** (`Array.prototype.filter()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter))
 - **Array.forEach** (`Array.prototype.forEach()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach))
@@ -18,19 +18,19 @@ Create a JavaScript shim set using node.
 - **EventListener** (EventListener polyfill – [Jonathan Neal](https://github.com/jonathantneal/EventListener))
 - **Document.getElementsByClassName** (getElementsByClassName polyfill – [SitePoint](http://www.sitepoint.com/5-useful-functions-missing-in-javascript/))
 
-###Install:
+### Install:
 
 ```bash
 $ npm install shimly
 ```
 
-###API:
+### API:
 ```js
 shimly.shim(shims, minify, destination); //create shim set
 shimly.list(); //lists available shims
 ```
 
-###Usage:
+### Usage:
 
 ```js
 // ...
