@@ -3,11 +3,13 @@
 Create a JavaScript shim set using node.
 
 ### List of shims:
+- **Array.isArray** (`Array.isArray()` - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray))
 - **Array.every** (`Array.prototype.every()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/every))
 - **Array.filter** (`Array.prototype.filter()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter))
 - **Array.forEach** (`Array.prototype.forEach()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach))
 - **Array.indexOf** (`Array.prototype.indexOf()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf))
 - **Array.map** (`Array.prototype.map()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf))
+- **Array.reduce** (`Array.prototype.reduce()` - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce))
 - **Array.some** (`Array.prototype.some()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/some))
 - **Element.classList** (`Element.classList` - [Eli Grey's classList.js](https://github.com/eligrey/classList.js))
 - **Function.bind** (`Function.prototype.bind()` -[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind))
