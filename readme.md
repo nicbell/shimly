@@ -17,6 +17,7 @@ Create a JavaScript shim set using node.
 - **requestAnimationFrame** (`Window.requestAnimationFrame()` polyfill [Paul Irish's Gist](https://gist.github.com/paulirish/1579671))
 - **EventListener** (EventListener polyfill – [Jonathan Neal](https://github.com/jonathantneal/EventListener))
 - **Document.getElementsByClassName** (getElementsByClassName polyfill – [SitePoint](http://www.sitepoint.com/5-useful-functions-missing-in-javascript/))
+- **String.trim** (`String.prototype.trim()` – [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim))
 
 ### Install:
 
