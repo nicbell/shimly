@@ -13,8 +13,8 @@
   "author": "Nic Bell",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.8.1",
-    "uglify-js": "^2.4.24"
+    "commander": "^2.9.0",
+    "uglify-js": "^2.6.1"
   },
   "bin": {
     "shimly": "cli.js"
