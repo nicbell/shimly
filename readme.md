@@ -21,6 +21,7 @@ Create a JavaScript shim set using node.
 - **EventListener** (EventListener polyfill – [Jonathan Neal](https://github.com/jonathantneal/EventListener))
 - **Document.getElementsByClassName** (getElementsByClassName polyfill – [SitePoint](http://www.sitepoint.com/5-useful-functions-missing-in-javascript/))
 - **String.trim** (`String.prototype.trim()` – [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim))
+- **matchMedia** (`matchMedia()` – [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia))
 
 ### Install:
 
