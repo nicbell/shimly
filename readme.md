@@ -12,6 +12,7 @@ Create a JavaScript shim set using node.
 - **Array.reduce** (`Array.prototype.reduce()` - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce))
 - **Array.some** (`Array.prototype.some()` - [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/some))
 - **Element.classList** (`Element.classList` - [Eli Grey's classList.js](https://github.com/eligrey/classList.js))
+- **Fetch API** (`fetch()` – [Github polyfill](https://github.com/github/fetch))
 - **Function.bind** (`Function.prototype.bind()` -[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind))
 - **Object.assign** (`Object.assign()` - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign))
 - **JSON** (`JSON.stringify()` and `JSON.parse()` - [Douglas Crockford's JSON 2](https://github.com/douglascrockford/JSON-js))
@@ -38,7 +39,7 @@ shimly.list(); //lists available shims
 ```js
 // ...
     var shimly = require('shimly')
- 
+
 	shimly.shim(['Array.every', 'Array.forEach'], false, 'shims.js');
 // ...
 ```
