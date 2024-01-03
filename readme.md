@@ -1,6 +1,6 @@
 # Shimly
 
-[![npm](https://img.shields.io/npm/v/grunt-shimly?style=flat&logo=npm)](https://www.npmjs.com/package/grunt-shimly) [![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/grunt-shimly?style=flat&color=pink)](https://www.npmjs.com/package/grunt-shimly) ![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnicbell%2Fnpm-statistics%2Fmaster%2Fpackages%2Fgrunt-shimly.json&style=flat&logo=null&label=downloads&color=violet&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fgrunt-shimly)
+[![npm](https://img.shields.io/npm/v/shimly?style=flat&logo=npm)](https://www.npmjs.com/package/shimly) [![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/shimly?style=flat&color=pink)](https://www.npmjs.com/package/shimly) ![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnicbell%2Fnpm-statistics%2Fmaster%2Fpackages%2Fshimly.json&style=flat&logo=null&label=downloads&color=violet&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%shimly)
 
 Create a JavaScript shim set using node.
 
