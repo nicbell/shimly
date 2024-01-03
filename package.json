@@ -4,7 +4,7 @@
   "description": "Create a shim set.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js -c"
   },
   "keywords": [
     "shim",
@@ -13,8 +13,8 @@
   "author": "Nic Bell",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0",
-    "uglify-js": "^2.6.1"
+    "commander": "^2.20.3",
+    "uglify-js": "^2.8.29"
   },
   "bin": {
     "shimly": "cli.js"
